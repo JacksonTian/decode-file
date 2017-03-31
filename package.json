@@ -1,0 +1,25 @@
+{
+  "name": "decode-file",
+  "version": "1.0.0",
+  "description": "Decode file from an encoding to UTF8",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacksonTian/decode-file.git"
+  },
+  "author": "Jackson Tian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JacksonTian/decode-file/issues"
+  },
+  "homepage": "https://github.com/JacksonTian/decode-file#readme",
+  "dependencies": {
+    "iconv-lite": "^0.4.15"
+  },
+  "bin": {
+    "decode-file": "bin/decode-file.js"
+  }
+}
