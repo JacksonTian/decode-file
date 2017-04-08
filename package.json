@@ -1,6 +1,6 @@
 {
   "name": "decode-file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Decode file from an encoding to UTF8",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,6 @@
   },
   "bin": {
     "decode-file": "bin/decode-file.js"
-  }
+  },
+  "files": ["bin"]
 }
